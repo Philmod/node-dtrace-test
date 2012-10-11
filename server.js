@@ -4,7 +4,7 @@ var redis   = require('redis')
 
 var connectionRedis = redis.createClient();
 
-var tot = 100
+var tot = 40
   , nb  = 0;
 connectionRedis.on('ready', function(err) {
   if (err) console.log('ERROR redis ready : ' + err);
@@ -37,6 +37,11 @@ function fib(n) {
 setInterval( function() {
   utils.a(function(err,res) {
     if (err) console.error('error : ' + err);
-    else console.log('res a : ' + res);
-  })
-},4000);
+  });
+  utils.b(function(err,res) {
+    if (err) console.error('error : ' + err);
+  });
+  utils.c(function(err,res) {
+    if (err) console.error('error : ' + err);
+  });
+},2000);
