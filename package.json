@@ -1,0 +1,29 @@
+{
+  "name": "dtraceTest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://webuser@192.168.107.44:projects/api"
+  },
+  "dependencies": {
+    "express": "=3.0.0alpha1",
+    "redis": "=0.7.0",
+    "underscore": "=1.3.3"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "keywords": [
+    "dtrace"
+  ],
+  "scripts": {
+    "start-test": "node server.js"
+  },
+  "config" : {
+    "server_port" : 3000
+  },
+  "author": "Philippe Modard <philippe.modard@gmail.com>",
+  "license": "BSD"
+}
