@@ -1,0 +1,128 @@
+CPU     ID                    FUNCTION:NAME
+  1  68990                        :tick-60s 
+
+
+              libc.so.1`mutex_lock_impl+0x53
+              libc.so.1`mutex_lock+0xb
+              node`_ZN2v88internal15SamplerRegistry21IterateActiveSamplersEPFvPNS0_7SamplerEPvES4_+0x24
+              node`_ZN2v88internal15SamplerRegistry8GetStateEv+0x1a
+              node`_ZN2v88internal12SignalSender3RunEv+0x7a
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                1
+
+              node`_ZN2v88internal15SamplerRegistry21IterateActiveSamplersEPFvPNS0_7SamplerEPvES4_+0x33
+              node`_ZN2v88internal15SamplerRegistry8GetStateEv+0x1a
+              node`_ZN2v88internal12SignalSender3RunEv+0x7a
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                1
+
+              libc.so.1`__nanosleep+0xa
+              libc.so.1`usleep+0x38
+              node`_ZN2v88internal12SignalSender3RunEv+0x75
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                1
+
+              libc.so.1`clear_lockbyte+0x2
+              libc.so.1`mutex_unlock+0x172
+              node`_ZN2v88internal15SamplerRegistry21IterateActiveSamplersEPFvPNS0_7SamplerEPvES4_+0x6c
+              node`_ZN2v88internal15SamplerRegistry8GetStateEv+0x1a
+              node`_ZN2v88internal12SignalSender3RunEv+0x7a
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                1
+
+              node`_ZN2v88internal15SamplerRegistry8GetStateEv
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                1
+
+              libc.so.1`mutex_lock
+              node`_ZN2v88internal15SamplerRegistry8GetStateEv+0x1a
+              node`_ZN2v88internal12SignalSender3RunEv+0x7a
+              node`_ZN2v88internalL11ThreadEntryEPv+0x29
+              libc.so.1`_thrp_setup+0x83
+              libc.so.1`_lwp_start
+                3
+
+              0x321257b95f39
+              0x321257b8e29e
+              0x321257b8e0b2
+              0x321257b8dfd2
+              0x321257b8e45e
+              0x321257b10c1e
+              0x321257b68fc8
+              0x321257b69105
+              0x321257b67cb6
+              0x321257b6761c
+              0x321257b6956b
+              0x321257b2fe4a
+              0x321257b0c8a7
+              0x321257b06116
+              node`_ZN2v88internalL6InvokeEbNS0_6HandleINS0_10JSFunctionEEENS1_INS0_6ObjectEEEiPS5_Pb+0xf7
+              node`_ZN2v88internal9Execution4CallENS0_6HandleINS0_6ObjectEEES4_iPS4_Pbb+0xc8
+              node`_ZN2v88Function4CallENS_6HandleINS_6ObjectEEEiPNS1_INS_5ValueEEE+0xea
+              node`_ZN4nodeL4TickEv+0x7d
+              node`uv__run_idle+0x31
+              node`uv__run+0x23
+              node`uv_run+0x18
+              node`_ZN4node5StartEiPPc+0x196
+              node`_start+0x6c
+               14
+
+              0x321257b95f35
+              0x321257b8e29e
+              0x321257b8e0b2
+              0x321257b8dfd2
+              0x321257b8e45e
+              0x321257b10c1e
+              0x321257b68fc8
+              0x321257b69105
+              0x321257b67cb6
+              0x321257b6761c
+              0x321257b6956b
+              0x321257b2fe4a
+              0x321257b0c8a7
+              0x321257b06116
+              node`_ZN2v88internalL6InvokeEbNS0_6HandleINS0_10JSFunctionEEENS1_INS0_6ObjectEEEiPS5_Pb+0xf7
+              node`_ZN2v88internal9Execution4CallENS0_6HandleINS0_6ObjectEEES4_iPS4_Pbb+0xc8
+              node`_ZN2v88Function4CallENS_6HandleINS_6ObjectEEEiPNS1_INS_5ValueEEE+0xea
+              node`_ZN4nodeL4TickEv+0x7d
+              node`uv__run_idle+0x31
+              node`uv__run+0x23
+              node`uv_run+0x18
+              node`_ZN4node5StartEiPPc+0x196
+              node`_start+0x6c
+            19441
+
+              0x321257b95f3f
+              0x321257b8e29e
+              0x321257b8e0b2
+              0x321257b8dfd2
+              0x321257b8e45e
+              0x321257b10c1e
+              0x321257b68fc8
+              0x321257b69105
+              0x321257b67cb6
+              0x321257b6761c
+              0x321257b6956b
+              0x321257b2fe4a
+              0x321257b0c8a7
+              0x321257b06116
+              node`_ZN2v88internalL6InvokeEbNS0_6HandleINS0_10JSFunctionEEENS1_INS0_6ObjectEEEiPS5_Pb+0xf7
+              node`_ZN2v88internal9Execution4CallENS0_6HandleINS0_6ObjectEEES4_iPS4_Pbb+0xc8
+              node`_ZN2v88Function4CallENS_6HandleINS_6ObjectEEEiPNS1_INS_5ValueEEE+0xea
+              node`_ZN4nodeL4TickEv+0x7d
+              node`uv__run_idle+0x31
+              node`uv__run+0x23
+              node`uv_run+0x18
+              node`_ZN4node5StartEiPPc+0x196
+              node`_start+0x6c
+            38921
