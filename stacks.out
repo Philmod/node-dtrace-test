@@ -1,0 +1,29 @@
+CPU     ID                    FUNCTION:NAME
+  0  68990                        :tick-60s 
+
+
+              node`_ZN4node10StreamWrap15WriteStringImplILNS_13WriteEncodingE1EEEN2v86HandleINS3_5ValueEEERKNS3_9ArgumentsE+0x1
+              0x2a7cffdbf9f9
+              0x2a7cffda5af7
+              0x2a7cffda57de
+              0x2a7cffd0c0ee
+              0x2a7cffdb81fb
+              0x2a7cffd0c0ee
+              0x2a7cffd8dfcc
+              0x2a7cffd8dd8a
+              0x2a7cffdab601
+              0x2a7cffd0c0ee
+              0x2a7cffd0c8a1
+              0x2a7cffd06116
+              node`_ZN2v88internalL6InvokeEbNS0_6HandleINS0_10JSFunctionEEENS1_INS0_6ObjectEEEiPS5_Pb+0xf7
+              node`_ZN2v88internal9Execution4CallENS0_6HandleINS0_6ObjectEEES4_iPS4_Pbb+0xc8
+              node`_ZN2v88Function4CallENS_6HandleINS_6ObjectEEEiPNS1_INS_5ValueEEE+0xea
+              node`_ZN4node12MakeCallbackEN2v86HandleINS0_6ObjectEEENS1_INS0_8FunctionEEEiPNS1_INS0_5ValueEEE+0xde
+              node`_ZN4node12MakeCallbackEN2v86HandleINS0_6ObjectEEENS1_INS0_6StringEEEiPNS1_INS0_5ValueEEE+0x5c
+              node`_ZN4node9TimerWrap9OnTimeoutEP10uv_timer_si+0x48
+              node`uv__run_timers+0x57
+              node`uv__run+0x1b
+              node`uv_run+0x18
+              node`_ZN4node5StartEiPPc+0x196
+              node`_start+0x6c
+                1
