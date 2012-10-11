@@ -26,7 +26,7 @@ connectionRedis.on("error", function (err) {
   console.log("RedisClient Error : " + err);
 }); 
 
-function fib(n) {
+var fib = function fibb(n) {
   if (n < 2) {
     return 1;
   } else {
