@@ -15,7 +15,7 @@ How to install SmartOS
  - Before creating the local zone, first **imgadm update** then **imgadm avail** to see the available templates to download and install
  - **imgadm import e8c41d40-f161-11e1-b839-a3631c115653** (or another template)
  - Once imgadm has finished importing the template, deploy a local zone from it with the vmadm command and JSON file with some parameters
- ```js
+```js
 {
   "brand": "joyent",
   "dataset_uuid": "e8c41d40-f161-11e1-b839-a3631c115653",
@@ -32,7 +32,7 @@ How to install SmartOS
  - Put this file under /zones/zone.json (to survive to reboots)
  - **vmadm create -f /zones/zone.json**
  - Check that you rlocal zone is running : **vmadm list**
- - Log into the new local zone: **zlogin <UUID**
+ - Log into the new local zone: **zlogin <UUID>**
  - That's it!
 
 To get started, run **pkgin update** to get the lastest package database, then search the package you need with **pkgin search XXX**.
