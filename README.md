@@ -15,7 +15,8 @@ How to install SmartOS
  - Before creating the local zone, first **imgadm update** then **imgadm avail** to see the available templates to download and install
  - **imgadm import e8c41d40-f161-11e1-b839-a3631c115653** (or another template)
  - Once imgadm has finished importing the template, deploy a local zone from it with the vmadm command and JSON file with some parameters
-```js
+
+```json
 {
   "brand": "joyent",
   "dataset_uuid": "e8c41d40-f161-11e1-b839-a3631c115653",
